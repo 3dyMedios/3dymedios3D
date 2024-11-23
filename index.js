@@ -28,6 +28,7 @@ if( !window.mudiExperience ){
                 const 
                 response = await request.json();
                 this.dataServer = response.data[0];
+                console.log("este es el objeto" response.data[0])
         
             } catch (error) {console.error(`Mudi Error:\n${error}`)}
     
